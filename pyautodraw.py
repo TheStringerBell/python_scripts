@@ -5,6 +5,12 @@ import cv2
 import numpy as np
 import sys
 
+'''
+Converts an image to black&white and draws its edges with pyautogui
+Result:
+https://sketchtoy.com/67266044
+'''
+
 
 img = cv2.imread('cs.jpg', 0)
  
