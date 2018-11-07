@@ -4,10 +4,11 @@ import webbrowser
 
 from tkinter import * 
 
+'''
+Web scrapper for a torrent site which lists most popular 10 movies and opens them on CSFD in a browser.
+'''
 
 root = Tk()
-
-
 
 with open("already_seen.txt", "r") as f:
         already_seen = f.read()
