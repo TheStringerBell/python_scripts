@@ -5,7 +5,7 @@ import webbrowser
 from tkinter import * 
 
 '''
-Web scrapper for a torrent site which lists most popular 10 movies and opens them on CSFD in a browser.
+Web scrapper for a torrent site which lists most popular 10 movies and opens them on CSFD.cz in a browser.
 '''
 
 root = Tk()
